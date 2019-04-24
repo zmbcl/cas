@@ -26,7 +26,6 @@ rebel.xml
 node_modules/
 gruntfile.js
 nodejs
-.gradle/
 build/
 MANIFEST.MF
 classes/
