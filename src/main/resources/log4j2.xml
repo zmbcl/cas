@@ -6,14 +6,14 @@
         </Console>
     </Appenders>
     <Loggers>
-        <AsyncLogger name="org.apereo.cas" level="trace" additivity="false" />
-        <AsyncLogger name="org.apereo.cas.util" level="warn" additivity="false" />
-        <AsyncLogger name="org.springframework.web" level="trace" additivity="false" />
-        <AsyncLogger name="org.pac4j" level="debug" additivity="false" />
+        <AsyncLogger name="org.apereo.cas" level="trace"  />
+        <AsyncLogger name="org.apereo.cas.util" level="warn"  />
+        <AsyncLogger name="org.springframework.web" level="trace"  />
+        <AsyncLogger name="org.pac4j" level="debug"  />
 
-        <AsyncLogger name="org.apereo.cas.web.support.DefaultArgumentExtractor" level="error" additivity="false" />
-        <AsyncLogger name="org.apereo.cas.authentication.principal.WebApplicationServiceFactory" level="error" additivity="false" />
-        <AsyncLogger name="org.apereo.cas.ticket.registry.DefaultTicketRegistryCleaner" level="error" additivity="false" />
+        <AsyncLogger name="org.apereo.cas.web.support.DefaultArgumentExtractor" level="error"  />
+        <AsyncLogger name="org.apereo.cas.authentication.principal.WebApplicationServiceFactory" level="error"  />
+        <AsyncLogger name="org.apereo.cas.ticket.registry.DefaultTicketRegistryCleaner" level="error"  />
         <AsyncRoot level="warn">
             <AppenderRef ref="console"/>
         </AsyncRoot>
