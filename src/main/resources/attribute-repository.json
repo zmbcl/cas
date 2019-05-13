@@ -1,0 +1,9 @@
+{
+    "casuser": {
+        "name":["CAS"],
+        "given_name":["CAS"],
+        "family_name":["CAS"],
+        "preferred_username":["casuser"],
+        "email":["cas@apereo.org"]
+    }
+}
