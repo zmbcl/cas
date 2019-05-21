@@ -16,7 +16,7 @@
         "locale":["en-US"],
         "updated_at":["1558450884133"],
         "email_verified":["cas@apereo.org"],
-        "address":["1234 E Main Street, Somewhere, CA 82091"],
+        "address":[{ "formatted": "1234 E Main Street, Somewhere, CA 82091" }],
         "phone_number":["+1 (425) 555-1212"],
         "phone_number_verified":["+1 (425) 555-1212"]
     }

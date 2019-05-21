@@ -8,8 +8,8 @@
     <Loggers>
         <AsyncLogger name="org.apereo.cas" level="trace"  />
         <AsyncLogger name="org.apereo.cas.util" level="warn"  />
-        <AsyncLogger name="org.springframework.web" level="trace"  />
-        <AsyncLogger name="org.pac4j" level="debug"  />
+        <AsyncLogger name="org.springframework.web" level="info"  />
+        <AsyncLogger name="org.pac4j" level="info"  />
 
         <AsyncLogger name="org.apereo.cas.web.support.DefaultArgumentExtractor" level="error"  />
         <AsyncLogger name="org.apereo.cas.authentication.principal.WebApplicationServiceFactory" level="error"  />
